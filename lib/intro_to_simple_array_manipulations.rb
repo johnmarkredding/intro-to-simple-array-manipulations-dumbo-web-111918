@@ -23,6 +23,6 @@ end
 def using_insert(array, new_elm)
   array.insert(new_elm, 3)
 end
-def pop_with_args(array)
+def using_uniq(array)
   array.pop(2)
 end

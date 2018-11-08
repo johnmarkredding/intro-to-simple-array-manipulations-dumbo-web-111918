@@ -21,7 +21,7 @@ def using_concat(arr1, arr2)
   arr1.concat(arr2)
 end
 def using_insert(array, new_elm)
-  array.insert(new_elm)
+  array.insert(new_elm, 3)
 end
 def pop_with_args(array)
   array.pop(2)

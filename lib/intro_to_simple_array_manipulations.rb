@@ -20,9 +20,9 @@ end
 def using_concat(arr1, arr2)
   arr1.concat(arr2)
 end
-def using_insert(array)
-  array.uniq
+def using_insert(array, new_elm)
+  array.insert(new_elm, 3)
 end
 def using_uniq(array)
-  array.pop(2)
+  array.uniq
 end
